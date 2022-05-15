@@ -147,3 +147,6 @@ const getNewGridWithWallToggled = (grid, row, col) => {
   newGrid[row][col] = newNode;
   return newGrid;
 };
+
+let domContainer = document.querySelector('#pathfinding_visualiser_container')
+ReactDOM.render(<PathfindingVisualizer />, domContainer);
