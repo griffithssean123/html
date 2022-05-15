@@ -23,3 +23,11 @@ class WelcomeBack extends React.Component {
 
 
 }
+
+document.querySelectorAll('.welcome_back_container').forEach(domContainer => {
+    const commentID = parseInt(domContainter.dataset.commentid, 10);
+    const root = ReactDOM.createRoot(domContainer);
+    root.render(
+        e(WelcomeBack, { commentID: commentID })
+    );
+});
