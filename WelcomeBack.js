@@ -17,6 +17,8 @@ class WelcomeBack extends React.Component {
                     : ''
                 }
                 <CoolButton customText={this.state.apppVersion && this.state.apppVersion < 2 ? 'Download v2' : 'Download'} />
+                {/* <CoolButton2 customText={this.state.apppVersion && this.state.apppVersion < 2 ? 'Download v2' : 'Download'} /> */}
+                <Node />
             </>
         )
     }

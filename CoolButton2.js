@@ -1,4 +1,4 @@
-class CoolButton extends React.Component {
+class CoolButton2 extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -22,4 +22,4 @@ class CoolButton extends React.Component {
     }
 
 
-} 
+}
